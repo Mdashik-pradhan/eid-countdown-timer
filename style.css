@@ -72,7 +72,7 @@ span {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 676px) {
     .gradient-color1 p {
         font-size: 1.5rem;
         border-bottom: 1px solid rgb(22, 255, 236);
@@ -82,6 +82,6 @@ span {
         font-size: 2rem;
     }
     .countdown-el span {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
