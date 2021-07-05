@@ -51,6 +51,8 @@ span {
 
 .countdown-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .big-text {
