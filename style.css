@@ -39,7 +39,7 @@ body {
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-            border-bottom: 5px solid rgb(22, 255, 236);
+        border-bottom: 5px solid rgb(22, 255, 236);
 }
 
 span {
@@ -69,4 +69,19 @@ span {
 
 .countdown-el span {
     font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .gradient-color1 p {
+        font-size: 1.5rem;
+        border-bottom: 1px solid rgb(22, 255, 236);
+    }
+
+    .gradient-color {
+        font-size: 2rem;
+    }
+    .countdown-el span {
+        font-size: 12px;
+    }
 }
