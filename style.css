@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('./image/cloud.jfif');
+    background-image: url('./image/Eidul-azha.jfif');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -21,6 +21,34 @@ body {
     margin-top: 5rem;
 }
 
+.gradient-color {
+    font-size: 4rem;
+      background: linear-gradient(45deg, #1ed8e6 , #ffffff);
+      background-clip: tex;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+}
+
+.gradient-color1 p {
+    font-size: 4rem;
+      background: linear-gradient(45deg, #5d5bcc , #22ffb5);
+      background-clip: tex;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+            border-bottom: 5px solid rgb(22, 255, 236);
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(28, 255, 198);
+}
+
 .countdown-container {
     display: flex;
 }
@@ -34,6 +62,7 @@ body {
 
 .countdown-el {
     text-align: center;
+    background-color: #000000ad;
 }
 
 .countdown-el span {
